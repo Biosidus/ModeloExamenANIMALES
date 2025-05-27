@@ -70,6 +70,8 @@ public class GuardaZOO {
                     listo = false;
                 }
             } while (!listo);
+
+            animales[i] = animalActual;
         }
     }
 
@@ -140,7 +142,7 @@ public class GuardaZOO {
             case 4:
                 System.out.println("¿Que animal cumple años?(indique por su indice)");
                 this.menuAnimales(animales);
-                indice = sc.nextInt();
+                indice = sc.nextInt() - 1;
                 animalActual = animales[indice];
                 animalActual.cumplirAños();
                 break;

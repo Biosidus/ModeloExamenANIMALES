@@ -26,6 +26,14 @@ public class Animal {
         return peso;
     }
 
+    public int getVecesAlimentado() {
+        return vecesAlimentado;
+    }
+
+    public int getSolomillosComidos() {
+        return solomillosComidos;
+    }
+
     //Setters
     public void setNombre(String nombre) {
         this.nombre = nombre;
@@ -41,6 +49,14 @@ public class Animal {
 
     public void setPeso(double peso) {
         this.peso = peso;
+    }
+
+    public void setVecesAlimentado(int vecesAlimentado) {
+        this.vecesAlimentado = vecesAlimentado;
+    }
+
+    public void setSolomillosComidos(int solomillosComidos) {
+        this.solomillosComidos = solomillosComidos;
     }
 
     //Metodos
